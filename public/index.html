@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Leaf let Css for map styling -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <!--Leafler JavaScript for interactive map-->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.2/lib/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="goToData">view checkin</button>
+    <h1>The Weather Here</h1>
+
+    <p>
+      The Temperature is <span id="temperature"></span>° but it feels like <span id="feelsLike"></span>° in <span id="city"></span>
+    </p>
+
+    <!-- Displaying the latitude and longitude -->
+    <p>
+      latitude <span id="latitude"></span>&deg;<br />
+      longitude <span id="longitude"></span>&deg;
+    </p>
+
+    <!-- Map Container-->
+    <div id="issMap"></div>
+
+
+    <script src="./script.js"> </script>
+  </body>
+</html>

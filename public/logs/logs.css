@@ -1,0 +1,18 @@
+.data-item {
+    margin-bottom: 10px;
+    
+  }
+  .root {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-width: 400px;
+    max-width: 500px;
+    
+    
+  }
+  .data-item img{
+    max-width: 100%;
+    height: auto;
+  }
